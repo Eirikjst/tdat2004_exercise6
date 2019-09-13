@@ -1,0 +1,160 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise_6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--external stylesheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+
+    <!--internal stylesheets-->
+    <style>
+        h1 {
+            display: block;
+            font-size: 4em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            font-weight: bold;
+        }
+
+        .itemtable {
+            overflow: scroll;
+            overflow-x: hidden;
+            width: 565px;
+            height: 500px;
+        }
+
+        h4 {
+            display: block;
+            font-size: 4em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            font-weight: bold;
+        }
+    </style>
+
+    <!--external javascripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+
+    <!--internal javascripts-->
+    <script> let exports = {}; </script>
+    <script src="technology.js" defer></script>
+    <script src="dropdown.js" defer></script>
+    <script src="fill_lists.js" defer></script>
+    <script src="util.js" defer></script>
+</head>
+
+<body>
+    <h1 align="center">Fake news (Technology)</h1>
+    <div class="ui stackable equal width grid container">
+
+        <div class="ui fluid search selection dropdown" width="200px" id="categoryField">
+            <input type="hidden" name="category">
+            <i class="dropdown icon"></i>
+            <div class="default text">Technology</div>
+            <div class="menu">
+                <div class="item">Economy</div>
+                <div class="item">Home</div>
+                <div class="item">Politics</div>
+                <div class="item">Science</div>
+            </div>
+        </div>
+
+        <div class="left floated left aligned eight wide column">
+            <h3>Latest news</h3>
+            <div class="ui middle aligned divided list segment itemtable" id="latestNews"></div>
+        </div>
+        <div class="right floated right aligned eight wide column">
+            <h3>Most popular news</h3>
+            <div class="ui middle aligned divided list segment itemtable" id="popularNews"></div>
+        </div>
+
+        <div class="six ui buttons" style="width:500px">
+            <button class="ui button" disabled id="likeArticle">
+                Like
+            </button>
+            <button class="ui button" disabled id="dislikeArticle">
+                Dislike
+            </button>
+            <button class="ui button" disabled id="viewArticle">
+                View full article
+            </button>
+            <button class="ui button" disabled id="newComments">
+                New comment
+            </button>
+            <button class="ui button" disabled id="viewComments">
+                View comments
+            </button>
+            <button class="ui button" id="newArticle">
+                Write new article
+            </button>
+        </div>
+
+        <div class="ui modal article">
+            <i class="close icon"></i>
+            <div class="description">
+                <div class="ui header" id="read_article_header"></div>
+                <p id="read_article_text"></p>
+            </div>
+            <div class="actions">
+                <div class="ui positive right labeled icon button" id="close_modal_article">
+                    Close
+                </div>
+            </div>
+        </div>
+
+        <div class="ui modal comments">
+            <i class="close icon"></i>
+            <div class="ui middle aligned divided list segment itemtable" id="comment_list">
+            </div>
+            <div class="actions">
+                <div class="ui positive right labeled icon button" id="close_modal_comments">
+                    Close
+                </div>
+            </div>
+        </div>
+
+        <div class="ui modal newcomment">
+            <i class="close icon"></i>
+            <div class="ui input">
+                <input type="text" placeholder="text..." id="new_comment_text"></input>
+            </div>
+            <div class="actions">
+                <div class="ui positive right labeled icon button" id="save_new_comment">
+                    Save new comment
+                </div>
+            </div>
+        </div>
+
+        <div class="ui modal newarticle">
+            <i class="close icon"></i>
+            <div class="ui fluid search selection dropdown" id="newarticle_category">
+                <input type="hidden" name="category">
+                <i class="dropdown icon"></i>
+                <div class="default text">Choose category</div>
+                <div class="menu">
+                    <div class="item">Economy</div>
+                    <div class="item">Politics</div>
+                    <div class="item">Science</div>
+                    <div class="item">Technology</div>
+                </div>
+            </div>
+            <div class="ui input">
+                <input type="text" placeholder="headline" id="new_article_headline">
+            </div>
+            <form>
+                <textarea name="Text" rows=10 cols=30 id="article_text"></textarea>
+            </form>
+            <div class="actions">
+                <div class="ui positive left labeled icon button" id="save_new_article">
+                    Save new article
+                </div>
+                <div class="ui negative right labeled icon button" id="cancel_new_article">
+                    Cancel
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>

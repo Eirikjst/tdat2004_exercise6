@@ -1,0 +1,20 @@
+date = yyyy-mm-dd hh-mm-ss
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Politics', 'Trump writes new tweet', -500, 0, 'Outragous', '2018-04-02 23:59:59');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Politics', 'Erna Solberg on vacation', 5, 5, 'Vacation', '2018-01-01 10-00-00');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Politics', 'Kim Yung-Un is about to introduce democracy in North-Korea', 0, 10000, 'Shocking news', '2080-01-01 12-00-00');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Politics', 'Trump is elected for precident for second term', 1000, 1000, 'Disaster in USA', '2020-01-17 08-00-00');
+
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Technology', "Elon musk claims we're all living in the Matrix", 0, 888, 'Elon Musk Strikes again', '2018-05-12 12-00-00');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Technology', 'Oracle to shutdown further development on Java', 123, 23, 'Java', '2018-04-02 10-00-00');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Technology', 'New type of AI threatens humanity claims United Nations', 0, 100, 'Sky-net?', '2017-05-11 10-00-00');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Technology', 'Twitter says they have to develope new algorithms to better predict Trumps activity', 0, 1, 'Twitter crisis', '2019-10-10 12-12-12');
+
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Economy', 'NTNU have gone bankrupt', 0, 100, 'Unexpected from Trondheim', '2018-05-10 12-00-00');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Economy', 'Norway do not have any oil left, crisis in the near future', 132, 999, 'Oil crisis', '2020-01-01 01-01-01');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Economy', 'Wall street hits all time high', 103, 2000, 'The wolf of wall street', '2015-01-01 01-01-01');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Economy', 'Bloomberg just released a paper claiming Vladimir Putin is the wealthiest man alive', 0, 9999, 'Rich guy from Russia', '2018-04-03 12-00-00');
+
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Science', 'Scientists claims they have cured AIDS', 0, 100000, 'To good to be true?', '2019-01-01 12-13-14');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Science', '99% think this picture is fake', 500, 500, 'Fake research', '2010-10-10 10-10-10');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Science', 'New flue to wipe the planet', 0, 5000, 'The end of the world', '2018-02-03 04-05-06');
+INSERT INTO articles (article_cat, article_text, dislikes, likes, headline, date_created) VALUES ('Science', 'This was supposed to be our breakthrough', -40, 100, 'Dissapointment', '2014-04-05 04-05-05');

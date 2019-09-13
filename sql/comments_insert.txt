@@ -1,0 +1,36 @@
+INSERT INTO comments (article_id, comment_text) VALUES (2, 'thinking');
+INSERT INTO comments (article_id, comment_text) VALUES (2, 'interesting');
+INSERT INTO comments (article_id, comment_text) VALUES (2, 'okey?');
+INSERT INTO comments (article_id, comment_text) VALUES (2, 'yet again...');
+INSERT INTO comments (article_id, comment_text) VALUES (2, 'Not like this');
+INSERT INTO comments (article_id, comment_text) VALUES (2, 'what');
+INSERT INTO comments (article_id, comment_text) VALUES (3, 'xd');
+INSERT INTO comments (article_id, comment_text) VALUES (3, 'test');
+INSERT INTO comments (article_id, comment_text) VALUES (4, 'hehe');
+INSERT INTO comments (article_id, comment_text) VALUES (4, 'funny guy');
+INSERT INTO comments (article_id, comment_text) VALUES (5, 'fake news');
+INSERT INTO comments (article_id, comment_text) VALUES (5, 'asd');
+INSERT INTO comments (article_id, comment_text) VALUES (5, 'spam');
+INSERT INTO comments (article_id, comment_text) VALUES (7, 'xd');
+INSERT INTO comments (article_id, comment_text) VALUES (7, 'a');
+INSERT INTO comments (article_id, comment_text) VALUES (7, 'b');
+INSERT INTO comments (article_id, comment_text) VALUES (7, 'c');
+INSERT INTO comments (article_id, comment_text) VALUES (7, 'd');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'this guy');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'my man');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'kk');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'ok');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'cool');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'whaaaat?!');
+INSERT INTO comments (article_id, comment_text) VALUES (10, 'meeeh');
+INSERT INTO comments (article_id, comment_text) VALUES (11, 'lol');
+INSERT INTO comments (article_id, comment_text) VALUES (11, 'lol');
+INSERT INTO comments (article_id, comment_text) VALUES (11, 'lol');
+INSERT INTO comments (article_id, comment_text) VALUES (11, 'lol');
+INSERT INTO comments (article_id, comment_text) VALUES (13, 'trolls');
+INSERT INTO comments (article_id, comment_text) VALUES (13, 'huehue');
+INSERT INTO comments (article_id, comment_text) VALUES (13, 'spam');
+INSERT INTO comments (article_id, comment_text) VALUES (13, 'xd');
+INSERT INTO comments (article_id, comment_text) VALUES (13, 'dx');
+
+

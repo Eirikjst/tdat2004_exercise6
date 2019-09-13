@@ -1,0 +1,22 @@
+h1 {
+    display: block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+}
+
+.itemtable {
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 565px;
+    height: 500px;
+}
+
+h4 {
+    display: block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+}

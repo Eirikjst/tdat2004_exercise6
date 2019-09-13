@@ -1,0 +1,9 @@
+CREATE TABLE `tdat2004_exercise6`.`articles` (
+  `article_cat` VARCHAR(15) NOT NULL,
+  `article_id` INT AUTO_INCREMENT,
+  `article_text` VARCHAR(256) NULL,
+  `date_created` DATETIME NULL,
+  `dislikes` INT NULL DEFAULT 0,
+  `likes` INT NULL DEFAULT 0,
+  `headline` VARCHAR(50) NOT NULL,
+  PRIMARY KEY (`article_id`));

@@ -1,0 +1,10 @@
+CREATE TABLE `tdat2004_exercise6`.`comments` (
+  `article_id` INT NOT NULL,
+  `comment_id` INT NOT NULL AUTO_INCREMENT,
+  `comment_text` VARCHAR(256) NOT NULL,
+  PRIMARY KEY (`comment_id`),
+  CONSTRAINT `article_id`
+    FOREIGN KEY (`article_id`)
+    REFERENCES `tdat2004_exercise6`.`articles` (`article_id`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE);
