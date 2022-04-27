@@ -23,7 +23,7 @@
     "@types/morgan": "^1.7.35",
     "@types/mysql": "^2.15.4",
     "@types/semantic-ui": "^2.2.6",
-    "grunt": "^1.0.2",
+    "grunt": "^1.5.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-ts": "^6.0.0-beta.19",
